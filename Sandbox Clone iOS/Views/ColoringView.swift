@@ -196,5 +196,5 @@ struct ColoringView: View {
 }
 
 #Preview {
-    ColoringView(numberedPicturebw: NumberedPicturebw(id:0, name: "penguin", imageNamebw: "penguin black and white"))
+    ColoringView(numberedPicturebw: NumberedPicturebw(id:0, name: "tyrannosaurus", imageNamebw: "tyrannosaurus black and white"))
 }

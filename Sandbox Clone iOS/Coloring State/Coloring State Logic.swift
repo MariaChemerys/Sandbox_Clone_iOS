@@ -226,11 +226,28 @@ class ColoringState: ObservableObject{
             return Color("light red")
         case 15:
             return Color.red
-        default:
+        case 16:
+            return Color.brown
+        case 17:
+            return Color("light brown")
+        case 18:
+            return Color("dark brown")
+        case 19:
+            return Color("dark green")
+        case 20:
+            return Color("light green")
+        case 21:
+            return Color("dark pink")
+        case 22:
             return Color.purple
+        case 23:
+            return Color("dark red")
+        default:
+            return Color.cyan
         }
     }
     
+    // This function is used when VoiceOver mode is ON to vocalize the names of colors
     func getColorName(squareNumber: Int) -> String{
         switch(squareNumber){
         case 0:
@@ -265,8 +282,24 @@ class ColoringState: ObservableObject{
             return "light red"
         case 15:
             return "red"
-        default:
+        case 16:
+            return "brown"
+        case 17:
+            return "light brown"
+        case 18:
+            return "dark brown"
+        case 19:
+            return "dark green"
+        case 20:
+            return "light green"
+        case 21:
+            return "dark pink"
+        case 22:
             return "purple"
+        case 23:
+            return "dark red"
+        default:
+            return "cyan"
         }
     }
     
