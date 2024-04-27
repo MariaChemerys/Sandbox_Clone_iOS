@@ -24,56 +24,12 @@ struct MainView: View {
     ]
     
     var body: some View {
-        
-        //ScrollView {
             
         NavigationView {
-            //Image("beaver colored")
+            
             ScrollView {
             
             VStack {
-                
-//                HStack {
-//                    Image(systemName: "gearshape")
-//                        .imageScale(.large)
-//                        .foregroundColor(.gray)
-//                        .bold()
-//                        .position(CGPoint(x: 25, y: 25))
-//                        .accessibilityLabel("settings")
-//                    
-//                    NavigationLink(destination: GalleryView(), label: {
-//                        Text("")
-//                            .position(/*@START_MENU_TOKEN@*/CGPoint(x: 10.0, y: 10.0)/*@END_MENU_TOKEN@*/)
-//                            .frame(width: 10, height:10)
-//                    })
-//                    .background(
-//                        Rectangle()
-//                            .frame(width: 10, height:10)
-//                            .cornerRadius(2)
-//                            .foregroundColor(.apricot))
-//                    .position(CGPoint(x: 121, y: 26))
-//                    .accessibilityLabel("gallery screen")
-//                    
-//                    
-//                    Rectangle()
-//                        .frame(width: 12, height:12)
-//                        .cornerRadius(2)
-//                        .foregroundColor(.gray)
-//                        .position(CGPoint(x: 0, y: 25))
-//                        .accessibilityLabel("picture catalog screen")
-//                    Rectangle()
-//                        .frame(width: 10, height:10)
-//                        .foregroundColor(.clear)
-//                        .border(Color.gray, width: 1.1)
-//                        .cornerRadius(2)
-//                        .position(CGPoint(x: -120, y: 26))
-//                        .accessibilityLabel("draw screen")
-//                }
-//                //                    .background(
-//                //                     Rectangle())
-//                .frame(height: 40)
-//                .padding(0)
-                
                 
                 if(searchTerm.isEmpty) {
                     Rectangle()
@@ -103,11 +59,10 @@ struct MainView: View {
                                         }
                                     }.accessibilityHint("Double tap to open the image and color it.")
                                 }
-                            }.zIndex(1)
-                                .position(x: 273, y: 50)
-                                .frame(width: 548, height: 107)
-                            
-                            
+                            }
+                            .zIndex(1)
+                            .position(x: 273, y: 50)
+                            .frame(width: 548, height: 107)
                         }
                         
                     }
@@ -141,7 +96,6 @@ struct MainView: View {
                                             .resizable()
                                             .frame(width: 187, height: 185)
                                             .cornerRadius(15)
-                                        //.position(CGPoint(x: 100, y: -100))
                                     }
                                     
                                 }
@@ -151,7 +105,6 @@ struct MainView: View {
                     
                 }
                 
-                
                 Spacer()
             }.frame(height: 1150)
         }
@@ -159,8 +112,6 @@ struct MainView: View {
             .navigationBarBackButtonHidden()
             .frame(height:1060)
             .position(CGPoint(x: 194.5, y: 500))
-            
-        //}
 
     }
 }

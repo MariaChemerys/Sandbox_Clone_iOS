@@ -11,6 +11,7 @@ import SwiftUI
 class ColoringState: ObservableObject{
     
 // GETTING COORDINATES FROM A TEXT FILE
+    
     func coordinatesFileTextToString(fileName: String) -> String{
         if let filePath = Bundle.main.path(forResource: fileName, ofType: "txt") {
             do {
@@ -78,8 +79,8 @@ class ColoringState: ObservableObject{
         return rowColumnCoordinatesSeparatedByComma
     }
     
-// GETTING NUMBERS OF SQUARES FROM THE TEXT FILE WITH NUMBERED GRIDS
     
+// GETTING NUMBERS OF SQUARES FROM THE TEXT FILE WITH NUMBERED GRIDS
     
     func readLinesFromFile(fileName: String) -> [String] {
         let errorArray: [String] = Array(repeating: "error", count: 1)
@@ -92,7 +93,6 @@ class ColoringState: ObservableObject{
                 let trimmedInput = fileContents.trimmingCharacters(in: .whitespacesAndNewlines)
 
                 let lines = trimmedInput.components(separatedBy: "\n")
-                //lines.removeLast()
                 
                 return lines
             } catch {
@@ -108,32 +108,20 @@ class ColoringState: ObservableObject{
     }
     
     func linesWithSquareNumbersToTwoDimensionalIntArray(lines: [String]) -> [[Int]]{
-// Split each row into columns and convert the string values to integers
         
-//        let intArray: [[Int]] = lines.map { line in
-//            return line.components(separatedBy: ",").compactMap { Int($0) }
-//        }
-//        return intArray
+        // Split each row into columns and convert the string values to integers
         let boardHeight = getBoardHeight(arrayOfNumberedSquaresStrings: lines)
         let boardWidth = getBoardWidth(arrayOfNumberedSquaresStrings: lines)
         var str2DArray = Array(repeating: Array(repeating: "", count: boardWidth), count: boardHeight)
         var i=0
         for currentLine in lines{
             var currentLineSeparated = currentLine.components(separatedBy: ",")
-            // error is somewhere over there
             currentLineSeparated.removeLast()
             str2DArray[i] = currentLineSeparated
             i+=1
         }
         
         // Convert the 2D string array to a 2D int array
- 
-//        var intArray = Array(repeating: Array(repeating: 786, count: boardWidth), count: boardHeight)
-//        for i in 0..<boardHeight{
-//            for j in 0..<boardWidth{
-//                intArray[i][j] = Int(str2DArray[i][j])!
-//            }
-//        }
         let intArray: [[Int]] = str2DArray.map { row in
             row.map { element in
                 // Convert each element to an integer
@@ -141,7 +129,7 @@ class ColoringState: ObservableObject{
                     return intValue
                 } else {
                     // Handle cases where conversion fails (e.g., non-integer strings)
-                    return 584 // Default value, you can adjust this based on your needs
+                    return 584 // Default value
                 }
             }
         }
@@ -160,27 +148,6 @@ class ColoringState: ObservableObject{
         let squareNumbersInAString = arrayOfNumberedSquaresStrings[0].components(separatedBy: ",")
         let boardWidth = squareNumbersInAString.count - 1
         return boardWidth
-    }
-    
-    func getMissingColorsIndices(coordinatesString: String) -> [Int]{
-        var missingColorsIndicesString: String = ""
-        var colorIndex = 0
-        
-        for char in coordinatesString{
-            if char == "*"{
-                colorIndex += 1
-            }
-            if char == "n"{
-                missingColorsIndicesString.append("\(colorIndex),")
-            }
-        }
-        
-        let missingColorsIndicesStringArray: [String] = missingColorsIndicesString.components(separatedBy: ",")
-        var missingColorsIndicesIntArray: [Int] = missingColorsIndicesStringArray.map{Int($0) ?? 0}
-        missingColorsIndicesIntArray.removeLast()
-        
-        return missingColorsIndicesIntArray
-      
     }
     
     func getPresentColorsNumbers(squareNumbersInt2DArray: [[Int]]) -> [Int]{

@@ -20,13 +20,13 @@ struct ColoringView: View {
     @State private var selectedRowIndex: Int?
     @State private var selectedColumnIndex: Int?
     @State private var selectedNumber: Int?
-
+    
     // Introduce a state variable to store colors for each square
-        @State private var squareColors: [[Color]] = Array(repeating: Array(repeating: .lightGray, count: 21), count: 20)
-
+    @State private var squareColors: [[Color]] = Array(repeating: Array(repeating: .lightGray, count: 21), count: 20)
+    
     
     var body: some View {
-
+        
         let mystring = coloringState.coordinatesFileTextToString(fileName: "\(numberedPicturebw.name) coordinates of colored squares")
         let mystring1 = coloringState.columnCoordinatesToArray(coordinatesString: mystring)
         let numberedSquaresStrings = coloringState.readLinesFromFile(fileName: "\(numberedPicturebw.name) numbered grid")
@@ -95,16 +95,14 @@ struct ColoringView: View {
                                                 squareColors[rowIndex][columnIndex] = newColor
                                             }
                                         }
-                                        
+                                    
                                     
                                 }
                             }
                         }
                     }
                     .position(CGPoint(x: 197, y: 330))
-//                    .background(
-//                    Rectangle())
-                    //.background(Color.black)
+
                     if coloringState.isPictureColored(colorArray: squareColors) == true{
                         Text("Congratulations! You've colored the picture of \(numberedPicturebw.name).")
                             .font(.title)
@@ -112,16 +110,6 @@ struct ColoringView: View {
                             .foregroundColor(Color("apricot"))
                             .position(CGPoint(x: 200, y: 610))
                     }
-                    
-                    
-//                                    ForEach(mystring2, id: \.self){ item in
-//                                        Text(item)
-//                                            .frame(width: 400, height: 20)
-//                                    }.position(CGPoint(x: 100, y: -1800))
-//                                    VStack(spacing: 5){
-//                    
-//                                    }
-                    
                     
                     ZStack {
                         
@@ -139,7 +127,7 @@ struct ColoringView: View {
                                                 .frame(width: 50, height: 50)
                                                 .foregroundColor(Color.white)
                                                 .accessibilityLabel("\(coloringState.getColorName(squareNumber: number)) - number \(number)")
-                                                
+                                            
                                                 .background(coloringState.getColor(squareNumber: number))
                                                 .clipShape(Circle())
                                                 .onTapGesture {
@@ -154,25 +142,24 @@ struct ColoringView: View {
                                                 .foregroundColor(Color.black)
                                                 .background(coloringState.getColor(squareNumber: number))
                                                 .clipShape(Circle())
-                                                
+                                            
                                                 .accessibilityLabel("\(coloringState.getColorName(squareNumber: number)) - number \(number)")
                                                 .onTapGesture {
                                                     scaledButtonIndex = number
                                                     chosenColorNumber = number
                                                 }.scaleEffect(scaledButtonIndex == number ? 1.6 : 1.4)
-                                                
+                                            
                                         }
                                     }
-                                        .contentShape(Circle())
-                                        .accessibility(addTraits: .isButton)
+                                    .contentShape(Circle())
+                                    .accessibility(addTraits: .isButton)
                                     
                                     
                                 }
                                 
-                            }//.position(CGPoint(x: 260, y: 80))
-//                                .position(CGPoint(x: 260, y: 80))
-                                .frame(width: CGFloat(numbersOfPresentColors.count) * 86.0, height: 150)
-                                .zIndex(1)
+                            }
+                            .frame(width: CGFloat(numbersOfPresentColors.count) * 86.0, height: 150)
+                            .zIndex(1)
                             
                         }
                     }.background(
@@ -191,7 +178,7 @@ struct ColoringView: View {
             
             
         }.navigationBarBackButtonHidden()
-            
+        
     }
 }
 
