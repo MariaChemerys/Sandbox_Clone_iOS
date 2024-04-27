@@ -11,46 +11,6 @@ import SwiftUI
 class ColoringState: ObservableObject{
     
 // GETTING COORDINATES FROM A TEXT FILE
-
-    func rowCoordinatesToArray(coordinatesString: String) -> [Int]{
-        
-        let rowColumnCoordinatesSeparatedByComma = getRowColumnCoordinatesSeparatedByComma(coordinatesString: coordinatesString)
-        let numberOfCoordinatePairs = rowColumnCoordinatesSeparatedByComma.count
-        
-        var rowCoordinatesStrings: [String] = Array(repeating: "", count: (numberOfCoordinatePairs))
-        var i = 0
-        
-        for rowColumnCoordinateSeparatedByComma in rowColumnCoordinatesSeparatedByComma{
-            
-            let separatedRowColumnCoordinates = rowColumnCoordinateSeparatedByComma.components(separatedBy: ",")
-            rowCoordinatesStrings[i] = separatedRowColumnCoordinates[0]
-            i += 1
-
-        }
-
-        let rowCoordinatesIntegers = rowCoordinatesStrings.map{Int($0) ?? 0}
-        return rowCoordinatesIntegers
-    }
-    
-    func columnCoordinatesToArray(coordinatesString: String) -> [Int]{
-        
-        let rowColumnCoordinatesSeparatedByComma = getRowColumnCoordinatesSeparatedByComma(coordinatesString: coordinatesString)
-        let numberOfCoordinatePairs = rowColumnCoordinatesSeparatedByComma.count
-        
-        var columnCoordinatesStrings: [String] = Array(repeating: "", count: (numberOfCoordinatePairs))
-        var i = 0
-        
-        for rowColumnCoordinateSeparatedByComma in rowColumnCoordinatesSeparatedByComma{
-            
-            let separatedRowColumnCoordinates = rowColumnCoordinateSeparatedByComma.components(separatedBy: ",")
-            columnCoordinatesStrings[i] = separatedRowColumnCoordinates[1]
-            i += 1
-
-        }
-
-        let columnCoordinatesIntegers = columnCoordinatesStrings.map{Int($0) ?? 0}
-        return columnCoordinatesIntegers
-    }
     
     func getRowColumnCoordinatesSeparatedByComma(coordinatesString: String) -> [String]{
         
