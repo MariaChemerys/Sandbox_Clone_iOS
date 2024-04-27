@@ -14,7 +14,6 @@
 		CC451E712BDCF0BD004DF79D /* panda numbered grid.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC451E702BDCF0BD004DF79D /* panda numbered grid.txt */; };
 		CC451E732BDCF0C4004DF79D /* penguin numbered grid.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC451E722BDCF0C4004DF79D /* penguin numbered grid.txt */; };
 		CC451E762BDCF14A004DF79D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC451E752BDCF14A004DF79D /* MainView.swift */; };
-		CC451E782BDCF1D9004DF79D /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC451E772BDCF1D9004DF79D /* GalleryView.swift */; };
 		CC451E7A2BDCF1DF004DF79D /* ColoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC451E792BDCF1DF004DF79D /* ColoringView.swift */; };
 		CC451E7D2BDCF2A1004DF79D /* NumberPicturebw Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC451E7C2BDCF2A1004DF79D /* NumberPicturebw Model.swift */; };
 		CC451E7F2BDCF2AA004DF79D /* NumberedPictureColored Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC451E7E2BDCF2AA004DF79D /* NumberedPictureColored Model.swift */; };
@@ -42,7 +41,6 @@
 		CC451E702BDCF0BD004DF79D /* panda numbered grid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "panda numbered grid.txt"; sourceTree = "<group>"; };
 		CC451E722BDCF0C4004DF79D /* penguin numbered grid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "penguin numbered grid.txt"; sourceTree = "<group>"; };
 		CC451E752BDCF14A004DF79D /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		CC451E772BDCF1D9004DF79D /* GalleryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		CC451E792BDCF1DF004DF79D /* ColoringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoringView.swift; sourceTree = "<group>"; };
 		CC451E7C2BDCF2A1004DF79D /* NumberPicturebw Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NumberPicturebw Model.swift"; sourceTree = "<group>"; };
 		CC451E7E2BDCF2AA004DF79D /* NumberedPictureColored Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NumberedPictureColored Model.swift"; sourceTree = "<group>"; };
@@ -136,7 +134,6 @@
 			children = (
 				CC451E792BDCF1DF004DF79D /* ColoringView.swift */,
 				CC451E752BDCF14A004DF79D /* MainView.swift */,
-				CC451E772BDCF1D9004DF79D /* GalleryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -248,7 +245,6 @@
 				CC451E7F2BDCF2AA004DF79D /* NumberedPictureColored Model.swift in Sources */,
 				CC451E822BDCF321004DF79D /* NumberedPicturebwViewModel.swift in Sources */,
 				CC451E602BDCEA14004DF79D /* Sandbox_Clone_iOSApp.swift in Sources */,
-				CC451E782BDCF1D9004DF79D /* GalleryView.swift in Sources */,
 				CC451E7D2BDCF2A1004DF79D /* NumberPicturebw Model.swift in Sources */,
 				CC451E842BDCF328004DF79D /* NumberedPictureColoredViewModel.swift in Sources */,
 			);

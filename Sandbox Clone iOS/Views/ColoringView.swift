@@ -81,7 +81,7 @@ struct ColoringView: View {
                                             //(selectedRowIndex == rowIndex && selectedColumnIndex == columnIndex) ? .blue : .white
                                             squareColors[rowIndex][columnIndex] == .lightGray ? .white : squareColors[rowIndex][columnIndex]
                                         )
-                                        .font(.subheadline)
+                                        .font(.system(size: 14))
                                         .accessibilityLabel(squareColors[rowIndex][columnIndex] == .lightGray ? "number \(numberedSquaresIntegers[rowIndex][columnIndex]) \(coloringState.getColorName(squareNumber: numberedSquaresIntegers[rowIndex][columnIndex])) field not yet colored" : "number \(numberedSquaresIntegers[rowIndex][columnIndex]) \(coloringState.getColorName(squareNumber: numberedSquaresIntegers[rowIndex][columnIndex])) field already colored")
                                         .background(
                                             Rectangle()
@@ -170,7 +170,7 @@ struct ColoringView: View {
                                 }
                                 
                             }//.position(CGPoint(x: 260, y: 80))
-                                .position(CGPoint(x: 260, y: 80))
+//                                .position(CGPoint(x: 260, y: 80))
                                 .frame(width: CGFloat(numbersOfPresentColors.count) * 86.0, height: 150)
                                 .zIndex(1)
                             
