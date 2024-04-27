@@ -13,7 +13,6 @@ struct ColoringView: View {
     @StateObject var coloringState = ColoringState()
     @State private var isScaled = false
     @State private var scaledButtonIndex: Int? = 0
-    //EDIT
     @State private var chosenColorNumber: Int = 0
     @State private var selectedRowIndex: Int?
     @State private var selectedColumnIndex: Int?
@@ -25,11 +24,10 @@ struct ColoringView: View {
     
     var body: some View {
         
-        let mystring = coloringState.coordinatesFileTextToString(fileName: "\(numberedPicturebw.name) coordinates of colored squares")
-        
         let numberedSquaresStrings = coloringState.readLinesFromFile(fileName: "\(numberedPicturebw.name) numbered grid")
         
         let boardWidth = coloringState.getBoardWidth(arrayOfNumberedSquaresStrings: numberedSquaresStrings)
+        
         let boardHeight = coloringState.getBoardHeight(arrayOfNumberedSquaresStrings: numberedSquaresStrings)
         
         let numberedSquaresIntegers = coloringState.linesWithSquareNumbersToTwoDimensionalIntArray(lines: numberedSquaresStrings)
@@ -75,7 +73,6 @@ struct ColoringView: View {
                                     Text("\(numberedSquaresIntegers[rowIndex][columnIndex])")
                                         .frame(width: 17, height: 22)
                                         .foregroundColor(
-                                            //(selectedRowIndex == rowIndex && selectedColumnIndex == columnIndex) ? .blue : .white
                                             squareColors[rowIndex][columnIndex] == .lightGray ? .white : squareColors[rowIndex][columnIndex]
                                         )
                                         .font(.system(size: 14))

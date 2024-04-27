@@ -11,22 +11,6 @@ import SwiftUI
 class ColoringState: ObservableObject{
     
 // GETTING COORDINATES FROM A TEXT FILE
-    
-    func coordinatesFileTextToString(fileName: String) -> String{
-        if let filePath = Bundle.main.path(forResource: fileName, ofType: "txt") {
-            do {
-                let fileContent = try String(contentsOfFile: filePath, encoding: .utf8)
-                print(fileContent)
-                return fileContent
-                
-            } catch {
-                print("Error reading the file: \(error)")
-            }
-        } else {
-            print("File not found.")
-        }
-        return "NA"
-    }
 
     func rowCoordinatesToArray(coordinatesString: String) -> [Int]{
         
