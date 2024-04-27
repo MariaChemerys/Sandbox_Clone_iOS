@@ -18,6 +18,8 @@
 		CC451E7A2BDCF1DF004DF79D /* ColoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC451E792BDCF1DF004DF79D /* ColoringView.swift */; };
 		CC451E7D2BDCF2A1004DF79D /* NumberPicturebw Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC451E7C2BDCF2A1004DF79D /* NumberPicturebw Model.swift */; };
 		CC451E7F2BDCF2AA004DF79D /* NumberedPictureColored Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC451E7E2BDCF2AA004DF79D /* NumberedPictureColored Model.swift */; };
+		CC451E822BDCF321004DF79D /* NumberedPicturebwViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC451E812BDCF321004DF79D /* NumberedPicturebwViewModel.swift */; };
+		CC451E842BDCF328004DF79D /* NumberedPictureColoredViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC451E832BDCF328004DF79D /* NumberedPictureColoredViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		CC451E792BDCF1DF004DF79D /* ColoringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoringView.swift; sourceTree = "<group>"; };
 		CC451E7C2BDCF2A1004DF79D /* NumberPicturebw Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NumberPicturebw Model.swift"; sourceTree = "<group>"; };
 		CC451E7E2BDCF2AA004DF79D /* NumberedPictureColored Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NumberedPictureColored Model.swift"; sourceTree = "<group>"; };
+		CC451E812BDCF321004DF79D /* NumberedPicturebwViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberedPicturebwViewModel.swift; sourceTree = "<group>"; };
+		CC451E832BDCF328004DF79D /* NumberedPictureColoredViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberedPictureColoredViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +70,11 @@
 			isa = PBXGroup;
 			children = (
 				CC451E5F2BDCEA14004DF79D /* Sandbox_Clone_iOSApp.swift */,
+				CC451E802BDCF30E004DF79D /* ViewMoldels */,
+				CC451E6D2BDCEF96004DF79D /* Coloring State */,
 				CC451E7B2BDCF28C004DF79D /* Models */,
 				CC451E632BDCEA15004DF79D /* Assets.xcassets */,
 				CC451E742BDCF11E004DF79D /* Views */,
-				CC451E6D2BDCEF96004DF79D /* Coloring State */,
 				CC451E652BDCEA15004DF79D /* Preview Content */,
 			);
 			path = "Sandbox Clone iOS";
@@ -110,6 +115,15 @@
 				CC451E7E2BDCF2AA004DF79D /* NumberedPictureColored Model.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		CC451E802BDCF30E004DF79D /* ViewMoldels */ = {
+			isa = PBXGroup;
+			children = (
+				CC451E832BDCF328004DF79D /* NumberedPictureColoredViewModel.swift */,
+				CC451E812BDCF321004DF79D /* NumberedPicturebwViewModel.swift */,
+			);
+			path = ViewMoldels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,9 +202,11 @@
 				CC451E7A2BDCF1DF004DF79D /* ColoringView.swift in Sources */,
 				CC451E6F2BDCF01B004DF79D /* Coloring State Logic.swift in Sources */,
 				CC451E7F2BDCF2AA004DF79D /* NumberedPictureColored Model.swift in Sources */,
+				CC451E822BDCF321004DF79D /* NumberedPicturebwViewModel.swift in Sources */,
 				CC451E602BDCEA14004DF79D /* Sandbox_Clone_iOSApp.swift in Sources */,
 				CC451E782BDCF1D9004DF79D /* GalleryView.swift in Sources */,
 				CC451E7D2BDCF2A1004DF79D /* NumberPicturebw Model.swift in Sources */,
+				CC451E842BDCF328004DF79D /* NumberedPictureColoredViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
