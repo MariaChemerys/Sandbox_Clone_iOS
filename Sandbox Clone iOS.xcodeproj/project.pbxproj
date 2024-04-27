@@ -11,6 +11,7 @@
 		CC451E622BDCEA14004DF79D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC451E612BDCEA14004DF79D /* ContentView.swift */; };
 		CC451E642BDCEA15004DF79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC451E632BDCEA15004DF79D /* Assets.xcassets */; };
 		CC451E672BDCEA15004DF79D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC451E662BDCEA15004DF79D /* Preview Assets.xcassets */; };
+		CC451E6F2BDCF01B004DF79D /* Coloring State Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC451E6E2BDCF01B004DF79D /* Coloring State Logic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CC451E612BDCEA14004DF79D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CC451E632BDCEA15004DF79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC451E662BDCEA15004DF79D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC451E6E2BDCF01B004DF79D /* Coloring State Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coloring State Logic.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +53,10 @@
 		CC451E5E2BDCEA14004DF79D /* Sandbox Clone iOS */ = {
 			isa = PBXGroup;
 			children = (
+				CC451E632BDCEA15004DF79D /* Assets.xcassets */,
 				CC451E5F2BDCEA14004DF79D /* Sandbox_Clone_iOSApp.swift */,
 				CC451E612BDCEA14004DF79D /* ContentView.swift */,
-				CC451E632BDCEA15004DF79D /* Assets.xcassets */,
+				CC451E6D2BDCEF96004DF79D /* Coloring State */,
 				CC451E652BDCEA15004DF79D /* Preview Content */,
 			);
 			path = "Sandbox Clone iOS";
@@ -65,6 +68,14 @@
 				CC451E662BDCEA15004DF79D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC451E6D2BDCEF96004DF79D /* Coloring State */ = {
+			isa = PBXGroup;
+			children = (
+				CC451E6E2BDCF01B004DF79D /* Coloring State Logic.swift */,
+			);
+			path = "Coloring State";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC451E622BDCEA14004DF79D /* ContentView.swift in Sources */,
+				CC451E6F2BDCF01B004DF79D /* Coloring State Logic.swift in Sources */,
 				CC451E602BDCEA14004DF79D /* Sandbox_Clone_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
