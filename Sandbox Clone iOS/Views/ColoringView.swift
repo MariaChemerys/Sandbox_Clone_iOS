@@ -9,14 +9,12 @@ import SwiftUI
 
 struct ColoringView: View {
     
-    //@Binding var chosenPic: Int
     var numberedPicturebw: NumberedPicturebw
     @StateObject var coloringState = ColoringState()
     @State private var isScaled = false
     @State private var scaledButtonIndex: Int? = 0
     //EDIT
     @State private var chosenColorNumber: Int = 0
-    //
     @State private var selectedRowIndex: Int?
     @State private var selectedColumnIndex: Int?
     @State private var selectedNumber: Int?
@@ -28,16 +26,15 @@ struct ColoringView: View {
     var body: some View {
         
         let mystring = coloringState.coordinatesFileTextToString(fileName: "\(numberedPicturebw.name) coordinates of colored squares")
-        let mystring1 = coloringState.columnCoordinatesToArray(coordinatesString: mystring)
+        
         let numberedSquaresStrings = coloringState.readLinesFromFile(fileName: "\(numberedPicturebw.name) numbered grid")
         
         let boardWidth = coloringState.getBoardWidth(arrayOfNumberedSquaresStrings: numberedSquaresStrings)
         let boardHeight = coloringState.getBoardHeight(arrayOfNumberedSquaresStrings: numberedSquaresStrings)
         
-        var numberedSquaresIntegers = coloringState.linesWithSquareNumbersToTwoDimensionalIntArray(lines: numberedSquaresStrings)
+        let numberedSquaresIntegers = coloringState.linesWithSquareNumbersToTwoDimensionalIntArray(lines: numberedSquaresStrings)
         
         let numbersOfPresentColors = coloringState.getPresentColorsNumbers(squareNumbersInt2DArray: numberedSquaresIntegers)
-        var scrollViewWidth = numbersOfPresentColors.count * 64
         
         NavigationView {
             VStack {
