@@ -20,6 +20,17 @@
 		CC451E7F2BDCF2AA004DF79D /* NumberedPictureColored Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC451E7E2BDCF2AA004DF79D /* NumberedPictureColored Model.swift */; };
 		CC451E822BDCF321004DF79D /* NumberedPicturebwViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC451E812BDCF321004DF79D /* NumberedPicturebwViewModel.swift */; };
 		CC451E842BDCF328004DF79D /* NumberedPictureColoredViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC451E832BDCF328004DF79D /* NumberedPictureColoredViewModel.swift */; };
+		CC451E862BDD05D9004DF79D /* boat numbered grid.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC451E852BDD05D9004DF79D /* boat numbered grid.txt */; };
+		CC451E882BDD05FE004DF79D /* hedgehog numbered grid.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC451E872BDD05FE004DF79D /* hedgehog numbered grid.txt */; };
+		CC451E8A2BDD061F004DF79D /* parrot numbered grid.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC451E892BDD061F004DF79D /* parrot numbered grid.txt */; };
+		CC451E8C2BDD0637004DF79D /* volcano numbered grid.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC451E8B2BDD0637004DF79D /* volcano numbered grid.txt */; };
+		CC451E8E2BDD0648004DF79D /* owl numbered grid.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC451E8D2BDD0648004DF79D /* owl numbered grid.txt */; };
+		CC451E902BDD0674004DF79D /* beaver numbered grid.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC451E8F2BDD0674004DF79D /* beaver numbered grid.txt */; };
+		CC451E922BDD069E004DF79D /* solar system numbered grid.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC451E912BDD069E004DF79D /* solar system numbered grid.txt */; };
+		CC451E942BDD06B8004DF79D /* raspberry numbered grid.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC451E932BDD06B8004DF79D /* raspberry numbered grid.txt */; };
+		CC451E962BDD06DF004DF79D /* rocket numbered grid.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC451E952BDD06DF004DF79D /* rocket numbered grid.txt */; };
+		CC451E982BDD06FD004DF79D /* tyrannosaurus numbered grid.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC451E972BDD06FD004DF79D /* tyrannosaurus numbered grid.txt */; };
+		CC451E9A2BDD0713004DF79D /* ufo numbered grid.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC451E992BDD0713004DF79D /* ufo numbered grid.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +48,17 @@
 		CC451E7E2BDCF2AA004DF79D /* NumberedPictureColored Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NumberedPictureColored Model.swift"; sourceTree = "<group>"; };
 		CC451E812BDCF321004DF79D /* NumberedPicturebwViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberedPicturebwViewModel.swift; sourceTree = "<group>"; };
 		CC451E832BDCF328004DF79D /* NumberedPictureColoredViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberedPictureColoredViewModel.swift; sourceTree = "<group>"; };
+		CC451E852BDD05D9004DF79D /* boat numbered grid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "boat numbered grid.txt"; sourceTree = "<group>"; };
+		CC451E872BDD05FE004DF79D /* hedgehog numbered grid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "hedgehog numbered grid.txt"; sourceTree = "<group>"; };
+		CC451E892BDD061F004DF79D /* parrot numbered grid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "parrot numbered grid.txt"; sourceTree = "<group>"; };
+		CC451E8B2BDD0637004DF79D /* volcano numbered grid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "volcano numbered grid.txt"; sourceTree = "<group>"; };
+		CC451E8D2BDD0648004DF79D /* owl numbered grid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "owl numbered grid.txt"; sourceTree = "<group>"; };
+		CC451E8F2BDD0674004DF79D /* beaver numbered grid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "beaver numbered grid.txt"; sourceTree = "<group>"; };
+		CC451E912BDD069E004DF79D /* solar system numbered grid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "solar system numbered grid.txt"; sourceTree = "<group>"; };
+		CC451E932BDD06B8004DF79D /* raspberry numbered grid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "raspberry numbered grid.txt"; sourceTree = "<group>"; };
+		CC451E952BDD06DF004DF79D /* rocket numbered grid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "rocket numbered grid.txt"; sourceTree = "<group>"; };
+		CC451E972BDD06FD004DF79D /* tyrannosaurus numbered grid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "tyrannosaurus numbered grid.txt"; sourceTree = "<group>"; };
+		CC451E992BDD0713004DF79D /* ufo numbered grid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ufo numbered grid.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +114,18 @@
 			isa = PBXGroup;
 			children = (
 				CC451E6E2BDCF01B004DF79D /* Coloring State Logic.swift */,
+				CC451E872BDD05FE004DF79D /* hedgehog numbered grid.txt */,
 				CC451E702BDCF0BD004DF79D /* panda numbered grid.txt */,
+				CC451E852BDD05D9004DF79D /* boat numbered grid.txt */,
+				CC451E892BDD061F004DF79D /* parrot numbered grid.txt */,
+				CC451E932BDD06B8004DF79D /* raspberry numbered grid.txt */,
+				CC451E992BDD0713004DF79D /* ufo numbered grid.txt */,
+				CC451E972BDD06FD004DF79D /* tyrannosaurus numbered grid.txt */,
+				CC451E8F2BDD0674004DF79D /* beaver numbered grid.txt */,
+				CC451E8B2BDD0637004DF79D /* volcano numbered grid.txt */,
+				CC451E952BDD06DF004DF79D /* rocket numbered grid.txt */,
+				CC451E912BDD069E004DF79D /* solar system numbered grid.txt */,
+				CC451E8D2BDD0648004DF79D /* owl numbered grid.txt */,
 				CC451E722BDCF0C4004DF79D /* penguin numbered grid.txt */,
 			);
 			path = "Coloring State";
@@ -185,9 +218,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC451E712BDCF0BD004DF79D /* panda numbered grid.txt in Resources */,
+				CC451E922BDD069E004DF79D /* solar system numbered grid.txt in Resources */,
+				CC451E902BDD0674004DF79D /* beaver numbered grid.txt in Resources */,
+				CC451E8C2BDD0637004DF79D /* volcano numbered grid.txt in Resources */,
+				CC451E882BDD05FE004DF79D /* hedgehog numbered grid.txt in Resources */,
+				CC451E962BDD06DF004DF79D /* rocket numbered grid.txt in Resources */,
+				CC451E8A2BDD061F004DF79D /* parrot numbered grid.txt in Resources */,
+				CC451E9A2BDD0713004DF79D /* ufo numbered grid.txt in Resources */,
 				CC451E732BDCF0C4004DF79D /* penguin numbered grid.txt in Resources */,
 				CC451E672BDCEA15004DF79D /* Preview Assets.xcassets in Resources */,
+				CC451E862BDD05D9004DF79D /* boat numbered grid.txt in Resources */,
+				CC451E8E2BDD0648004DF79D /* owl numbered grid.txt in Resources */,
 				CC451E642BDCEA15004DF79D /* Assets.xcassets in Resources */,
+				CC451E942BDD06B8004DF79D /* raspberry numbered grid.txt in Resources */,
+				CC451E982BDD06FD004DF79D /* tyrannosaurus numbered grid.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
