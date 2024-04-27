@@ -12,6 +12,8 @@
 		CC451E642BDCEA15004DF79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC451E632BDCEA15004DF79D /* Assets.xcassets */; };
 		CC451E672BDCEA15004DF79D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC451E662BDCEA15004DF79D /* Preview Assets.xcassets */; };
 		CC451E6F2BDCF01B004DF79D /* Coloring State Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC451E6E2BDCF01B004DF79D /* Coloring State Logic.swift */; };
+		CC451E712BDCF0BD004DF79D /* panda numbered grid.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC451E702BDCF0BD004DF79D /* panda numbered grid.txt */; };
+		CC451E732BDCF0C4004DF79D /* penguin numbered grid.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC451E722BDCF0C4004DF79D /* penguin numbered grid.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		CC451E632BDCEA15004DF79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC451E662BDCEA15004DF79D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC451E6E2BDCF01B004DF79D /* Coloring State Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coloring State Logic.swift"; sourceTree = "<group>"; };
+		CC451E702BDCF0BD004DF79D /* panda numbered grid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "panda numbered grid.txt"; sourceTree = "<group>"; };
+		CC451E722BDCF0C4004DF79D /* penguin numbered grid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "penguin numbered grid.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				CC451E6E2BDCF01B004DF79D /* Coloring State Logic.swift */,
+				CC451E702BDCF0BD004DF79D /* panda numbered grid.txt */,
+				CC451E722BDCF0C4004DF79D /* penguin numbered grid.txt */,
 			);
 			path = "Coloring State";
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC451E712BDCF0BD004DF79D /* panda numbered grid.txt in Resources */,
+				CC451E732BDCF0C4004DF79D /* penguin numbered grid.txt in Resources */,
 				CC451E672BDCEA15004DF79D /* Preview Assets.xcassets in Resources */,
 				CC451E642BDCEA15004DF79D /* Assets.xcassets in Resources */,
 			);
