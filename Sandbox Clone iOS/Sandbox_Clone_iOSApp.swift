@@ -11,7 +11,7 @@ import SwiftUI
 struct Sandbox_Clone_iOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
