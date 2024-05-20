@@ -1,7 +1,7 @@
 <h1 align="center">Sandbox Clone</h1>
 
 <h2>Description</h2>
-<b>Sandbox Clone</b> is an iOS app that was created as a clone of an existing app called Sandbox from AppStore for my self-educational purposes.
+<b>Sandbox Clone</b> is an iOS app that was created as a clone of an existing app called <a href="https://apps.apple.com/ua/app/sandbox-pixel-art-colouring/id1237405816">Sandbox</a> from AppStore for my self-educational purposes.
 The app contains a gallery of pictures that can be colored by numbers. This enjoyable task is a perfect activity for relaxation  and stress relief. It can provide the following <b>benefits</b>:<br>
 • The structured nature of coloring by numbers requires attention to detail and concentration. This can help <strong><em>improve users' focus and their ability to complete tasks with precision</em></strong>.<br>
 • For children and adults alike, coloring by numbers can help <strong><em>improve fine motor skills</em></strong>.
@@ -27,3 +27,4 @@ Additionally, it can introduce them to concepts of art and design.<br>
   <img src="https://img.shields.io/badge/C++-24b8f2?style=for-the-badge" alt="C++" />
 </p>
 <h2>Credits</h2>
+All pictures for coloring inside the app were taken from <a href="https://www.twinkl.co.za">Twinkl</a>, a website for educational resources.
