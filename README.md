@@ -13,7 +13,7 @@ Additionally, it can introduce them to concepts of art and design.<br>
 <h2>Installation Instructions</h2>
 1. Open Xcode<br>
 2. Click on "Clone Git Repository"<br>
-3. Paste the following URL:  <br>
+3. Paste the following URL: https://github.com/MariaChemerys/Sandbox_Clone_iOS.git <br>
 4. Click "Clone"<br>
 5. Build and run the project in Xcode<br>
 
