@@ -29,4 +29,4 @@ Additionally, it can introduce them to concepts of art and design.<br>
   <img src="https://img.shields.io/badge/C++-24b8f2?style=for-the-badge" alt="C++" />
 </p>
 <h2>Credits</h2>
-All pictures for coloring inside the app were taken from <a href="https://www.twinkl.co.za">Twinkl</a>, a website for educational resources.
+All pictures for coloring inside the app were taken from <a href="https://www.twinkl.co.za">Twinkl</a>, a website for educational resources.<br>
