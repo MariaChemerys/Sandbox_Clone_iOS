@@ -1,5 +1,7 @@
 <h1 align="center">Sandbox Clone</h1>
-
+<p align="center">
+<img src="https://github.com/MariaChemerys/Sandbox_Clone_iOS/blob/main/Sandbox%20Clone%20GIF.gif?raw=true" width="200" height="450"/>
+</p>
 <h2>Description</h2>
 <b>Sandbox Clone</b> is an iOS app that was created as a clone of an existing app called <a href="https://apps.apple.com/ua/app/sandbox-pixel-art-colouring/id1237405816">Sandbox</a> from AppStore for my self-educational purposes.
 The app contains a gallery of pictures that can be colored by numbers. This enjoyable task is a perfect activity for relaxation  and stress relief. It can provide the following <b>benefits</b>:<br>
