@@ -20,6 +20,7 @@ Additionally, it can introduce them to concepts of art and design.<br>
 5. Build and run the project in Xcode<br>
 
 <h2>Internal Plugin</h2>
+<a href="https://github.com/MariaChemerys/Sandbox_App_Plugin-Picture_Encoder">Sandbox App Plugin - Picture Encoder</a> is an internal plugin for the Sandbox Clone. Since the pictures consisted of colored squares, it was necessary to know the coordinates of each color to construct them. Thus, the purpose of this plugin was to identify the coordinates of squares of each color, extract them and arrange in a systematic way (create a new .txt file that contained a string where this information was encoded). After the optimization of Sandbox Clone's code, this plugin became unnecessary and it is not used for this app's development anymore.
 
 <h2>Technologies Used for the App and Plugin Development</h2>
 <p align="left">
