@@ -11,6 +11,12 @@ The precise movements required to color within lines and follow the numbers can 
 • For younger users, coloring by numbers can be an educational tool. It can help them <strong><em>learn numbers, colors, and patterns in a fun and engaging way</em></strong>.
 Additionally, it can introduce them to concepts of art and design.<br>
 
+<h2>Screenshots</h2>
+<p align="center">
+<img src="https://github.com/MariaChemerys/Sandbox_Clone_iOS/blob/main/Sandbox%20Screenshot%201.PNG?raw=true" width="200" height=auto />
+<img src="https://github.com/MariaChemerys/Sandbox_Clone_iOS/blob/main/Sandbox%20Screenshot%202.PNG?raw=true" width="200" height=auto />
+<img src="https://github.com/MariaChemerys/Sandbox_Clone_iOS/blob/main/Sandbox%20Screenshot%203.PNG?raw=true" width="200" height=auto />
+</p>
 
 <h2>Installation Instructions</h2>
 1. Open Xcode<br>
